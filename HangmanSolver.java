@@ -6,8 +6,8 @@ public class HangmanSolver {
 
   public static void main(String args[]) {
     String input;
-    int guesses = 6;
-    String toGuess = "etaoinshr";
+    int guesses = 26;
+    String toGuess = "etaoinshrdlcumwfgypbvkjxqz";
     boolean isGame = true;
 
     while (isGame) {
@@ -19,7 +19,7 @@ public class HangmanSolver {
       guesses--;
       if (guesses <= 0) {
         // input = sc.nextLine();
-        guesses = 6;
+        guesses = 26;
       }
     }
   }

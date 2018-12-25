@@ -25,7 +25,7 @@ for s in wordlist:
     err=0
     p(''.join(s2))
     while err<6 and '_' in s2:
-        print('asd')
+        print('asd', s2)
         c=proc.stdout.readline().strip()
         nomatch=True
         for i in range(0, len(s)):
