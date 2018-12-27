@@ -7,7 +7,8 @@ public class HangmanSolver {
   public static void main(String args[]) {
     int guessesLeft = 6;
     int letter = 0;
-    String toGuess = "etaoinshrdlcumwfgypbvkjxqz";
+    // String toGuess = "etaoinshrdlcumwfgypbvkjxqz";
+    String toGuess ="eaitrnoslcudpmyhgfbvwkxqjz";
     String lastRound = sc.nextLine();
 
     while (true) {
