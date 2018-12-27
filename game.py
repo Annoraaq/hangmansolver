@@ -14,18 +14,14 @@ random.shuffle(wordlist)
 
 score=0
 totalerr=0
-count=0
 
 for s in wordlist:
-    print(count)
-    count += 1
     s2=[]
     for i in s:
         s2.append('_')
     err=0
     p(''.join(s2))
     while err<6 and '_' in s2:
-        print('asd', s2)
         c=proc.stdout.readline().strip()
         nomatch=True
         for i in range(0, len(s)):
